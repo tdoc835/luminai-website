@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 
 const footerLinks = {
   Product: [
@@ -14,9 +15,12 @@ const footerLinks = {
     { label: "Contact", href: "#" },
   ],
   Legal: [
-    { label: "Terms of Service", href: "/terms" },
+    { label: "Terms of Service", href: "/legal/tos" },
     { label: "Privacy Policy", href: "/privacy" },
     { label: "Cookie Policy", href: "/cookies" },
+    { label: "Website Terms", href: "/terms" },
+    { label: "Acceptable Use", href: "/legal/aup" },
+    { label: "DPA", href: "/legal/dpa" },
   ],
 }
 
@@ -45,12 +49,12 @@ export function Footer() {
               <ul className="mt-4 flex flex-col gap-3">
                 {links.map((link) => (
                   <li key={link.label}>
-                    <a
+                    <Link
                       href={link.href}
                       className="text-sm text-muted-foreground transition-colors hover:text-foreground"
                     >
                       {link.label}
-                    </a>
+                    </Link>
                   </li>
                 ))}
               </ul>
@@ -62,16 +66,16 @@ export function Footer() {
           <p className="text-xs text-muted-foreground">
             {'© 2026 Luminai Limited. All rights reserved.'}
           </p>
-          <div className="flex gap-6">
-            <a href="/terms" className="text-xs text-muted-foreground hover:text-foreground transition-colors">
+          <div className="flex flex-wrap gap-6">
+            <Link href="/legal/tos" className="text-xs text-muted-foreground hover:text-foreground transition-colors">
               Terms of Service
-            </a>
-            <a href="/privacy" className="text-xs text-muted-foreground hover:text-foreground transition-colors">
+            </Link>
+            <Link href="/privacy" className="text-xs text-muted-foreground hover:text-foreground transition-colors">
               Privacy Policy
-            </a>
-            <a href="/cookies" className="text-xs text-muted-foreground hover:text-foreground transition-colors">
+            </Link>
+            <Link href="/cookies" className="text-xs text-muted-foreground hover:text-foreground transition-colors">
               Cookie Policy
-            </a>
+            </Link>
           </div>
         </div>
       </div>
