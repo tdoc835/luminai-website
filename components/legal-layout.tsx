@@ -22,7 +22,7 @@ export function LegalLayout({ title, lastUpdated, version, children }: LegalLayo
               <span>Version {version}</span>
             </div>
           </header>
-          <div className="prose prose-invert prose-lg max-w-none
+          <div className="prose prose-lg max-w-none
             prose-headings:text-foreground prose-headings:font-semibold
             prose-h2:text-2xl prose-h2:mt-12 prose-h2:mb-6 prose-h2:border-b prose-h2:border-border/50 prose-h2:pb-3
             prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-4

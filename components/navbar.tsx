@@ -1,7 +1,6 @@
 "use client"
 
 import { useState } from "react"
-import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Menu, X } from "lucide-react"
 
@@ -17,15 +16,10 @@ export function Navbar() {
   return (
     <header className="fixed top-0 z-50 w-full border-b border-border/50 bg-background/80 backdrop-blur-xl">
       <nav className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6">
-        <a href="#" className="flex items-center gap-2" aria-label="Luminai home">
-          <Image
-            src="/images/luminai-logo.webp"
-            alt="Luminai logo"
-            width={130}
-            height={36}
-            className="h-8 w-auto"
-            priority
-          />
+        <a href="/" className="flex items-center gap-2" aria-label="Luminai home">
+          <span className="text-xl font-bold tracking-tight text-foreground">
+            Lumin<span className="text-primary">ai</span>
+          </span>
         </a>
 
         <ul className="hidden items-center gap-8 md:flex">

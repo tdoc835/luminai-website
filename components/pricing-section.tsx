@@ -89,15 +89,13 @@ export function PricingSection() {
               <span className="text-2xl font-bold tracking-tight text-foreground">
                 Pay As You Go
               </span>
-              <p className="mt-1 text-sm text-muted-foreground">
-                Model provider costs passed through transparently
-              </p>
             </div>
 
             <p className="mt-4 text-sm text-muted-foreground leading-relaxed">
-              You only pay for what you use. We pass through the raw model cost
-              directly -- no hidden fees, no token bundles. Track every penny in
-              your analytics dashboard.
+              Simply add credit to your account and use as much or as little as
+              you need. No token bundles, no throttling, no overage fees.
+              You're in complete control — top up your balance and pay only for
+              the AI tokens you actually use.
             </p>
 
             <div className="mt-8">
@@ -138,7 +136,7 @@ export function PricingSection() {
 
             <div className="mt-6 flex items-center justify-center gap-2 text-xs text-muted-foreground">
               <Eye className="size-3.5" />
-              <span>Built-in cost tracking in your analytics dashboard</span>
+              <span>Track every token in your analytics dashboard</span>
             </div>
           </div>
         </div>

@@ -1,4 +1,3 @@
-import Image from "next/image"
 import Link from "next/link"
 
 const footerLinks = {
@@ -30,13 +29,9 @@ export function Footer() {
       <div className="mx-auto max-w-6xl">
         <div className="grid gap-12 md:grid-cols-4">
           <div>
-            <Image
-              src="/images/luminai-logo.webp"
-              alt="Luminai logo"
-              width={120}
-              height={32}
-              className="h-7 w-auto"
-            />
+            <Link href="/" className="text-xl font-bold tracking-tight text-foreground">
+              Lumin<span className="text-primary">ai</span>
+            </Link>
             <p className="mt-4 text-sm text-muted-foreground leading-relaxed">
               Deploy intelligent AI agents in 60 seconds. Built for businesses
               that move fast.
