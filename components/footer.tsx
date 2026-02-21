@@ -3,9 +3,9 @@ import Image from "next/image"
 
 const footerLinks = {
   Product: [
-    { label: "Features", href: "#features" },
-    { label: "Pricing", href: "#pricing" },
-    { label: "How It Works", href: "#how-it-works" },
+    { label: "Features", href: "/#features" },
+    { label: "Pricing", href: "/#pricing" },
+    { label: "How It Works", href: "/#how-it-works" },
     { label: "API Access", href: "#" },
   ],
   Company: [
