@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 
 const footerLinks = {
   Product: [
@@ -29,8 +30,14 @@ export function Footer() {
       <div className="mx-auto max-w-6xl">
         <div className="grid gap-12 md:grid-cols-4">
           <div>
-            <Link href="/" className="text-xl font-bold tracking-tight text-foreground">
-              Lumin<span className="text-primary">ai</span>
+            <Link href="/" className="inline-block">
+              <Image
+                src="/Luminai-Logo-White.png"
+                alt="Luminai"
+                width={120}
+                height={32}
+                className="h-8 w-auto"
+              />
             </Link>
             <p className="mt-4 text-sm text-muted-foreground leading-relaxed">
               Deploy intelligent AI agents in 60 seconds. Built for businesses

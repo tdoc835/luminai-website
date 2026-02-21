@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import Link from "next/link"
+import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Menu, X } from "lucide-react"
 
@@ -18,9 +19,14 @@ export function Navbar() {
     <header className="fixed top-0 z-50 w-full border-b border-border/50 bg-background/80 backdrop-blur-xl">
       <nav className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6">
         <a href="/" className="flex items-center gap-2" aria-label="Luminai home">
-          <span className="text-xl font-bold tracking-tight text-foreground">
-            Lumin<span className="text-primary">ai</span>
-          </span>
+          <Image
+            src="/Luminai-Logo-Blue.png"
+            alt="Luminai"
+            width={120}
+            height={32}
+            className="h-8 w-auto"
+            priority
+          />
         </a>
 
         <ul className="hidden items-center gap-8 md:flex">
