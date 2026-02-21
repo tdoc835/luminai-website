@@ -171,7 +171,7 @@ export default function CookiePolicyPage() {
       <p>For questions about our use of cookies:</p>
       <p>
         <strong>Luminai Limited</strong><br />
-        Email: privacy@luminai.co.uk
+        Email: empower+privacy@luminai.co.uk
       </p>
     </LegalLayout>
   )

@@ -1,3 +1,4 @@
+import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { ArrowRight, Check, Eye } from "lucide-react"
@@ -57,6 +58,7 @@ export function PricingSection() {
             </div>
 
             <p className="mt-4 text-sm text-muted-foreground leading-relaxed">
+              Deploy and manage 1 or 100s of agents on the platform.
               Everything you need to build, deploy, and manage production-ready
               AI agents. No per-seat charges.
             </p>
@@ -70,9 +72,11 @@ export function PricingSection() {
               ))}
             </ul>
 
-            <Button className="mt-8 w-full bg-primary text-primary-foreground hover:bg-primary/90 h-11 group">
-              Get Started
-              <ArrowRight className="size-4 transition-transform group-hover:translate-x-0.5" />
+            <Button className="mt-8 w-full bg-primary text-primary-foreground hover:bg-primary/90 h-11 group" asChild>
+              <Link href="/contact">
+                Request Early Access
+                <ArrowRight className="size-4 transition-transform group-hover:translate-x-0.5" />
+              </Link>
             </Button>
           </div>
 

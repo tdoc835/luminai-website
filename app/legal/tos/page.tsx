@@ -79,7 +79,7 @@ export default function TermsOfServicePage() {
       <h3>3.3 Account Responsibility</h3>
       <p>
         You are responsible for all activity under your account, including actions by users 
-        you authorise. Notify us immediately at security@luminai.co.uk if you suspect 
+        you authorise. Notify us immediately at empower+security@luminai.co.uk if you suspect 
         unauthorised access.
       </p>
 
@@ -235,7 +235,7 @@ export default function TermsOfServicePage() {
       <p>These Terms begin when you create an account and continue until terminated.</p>
 
       <h3>10.2 Termination by You</h3>
-      <p>You may terminate at any time by cancelling your subscription through the Platform or emailing support@luminai.co.uk.</p>
+      <p>You may terminate at any time by cancelling your subscription through the Platform or emailing empower+support@luminai.co.uk.</p>
 
       <h3>10.3 Termination by Us</h3>
       <p>We may terminate or suspend your account:</p>
@@ -322,7 +322,7 @@ export default function TermsOfServicePage() {
       <p>For questions about these Terms:</p>
       <p>
         <strong>Luminai Limited</strong><br />
-        Email: legal@luminai.co.uk
+        Email: empower+legal@luminai.co.uk
       </p>
     </LegalLayout>
   )

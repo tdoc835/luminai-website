@@ -145,7 +145,7 @@ export default function AcceptableUsePolicyPage() {
       <h2>5. Reporting Violations</h2>
       <p>If you encounter content or usage that violates this AUP:</p>
       <ul>
-        <li>Email: abuse@luminai.co.uk</li>
+        <li>Email: empower+abuse@luminai.co.uk</li>
         <li>Include: Description of violation, relevant URLs/Agent IDs, supporting evidence</li>
       </ul>
       <p>We review reports promptly and take appropriate action.</p>
@@ -181,7 +181,7 @@ export default function AcceptableUsePolicyPage() {
       <h2>7. Appeals</h2>
       <p>If you believe enforcement action was taken in error:</p>
       <ul>
-        <li>Email legal@luminai.co.uk within 14 days</li>
+        <li>Email empower+legal@luminai.co.uk within 14 days</li>
         <li>Include your account details and explanation</li>
         <li>We will review and respond within 30 days</li>
       </ul>
@@ -196,7 +196,7 @@ export default function AcceptableUsePolicyPage() {
       <p>For questions about this policy:</p>
       <p>
         <strong>Luminai Limited</strong><br />
-        Email: legal@luminai.co.uk
+        Email: empower+legal@luminai.co.uk
       </p>
     </LegalLayout>
   )

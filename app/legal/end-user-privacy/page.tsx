@@ -220,7 +220,7 @@ export default function EndUserPrivacyNoticePage() {
         Contact the <strong>business</strong> operating this AI assistant — they are 
         responsible for responding to your requests.
       </p>
-      <p>If you need to contact Luminai directly: privacy@luminai.co.uk</p>
+      <p>If you need to contact Luminai directly: empower+privacy@luminai.co.uk</p>
 
       <h3>Complaints</h3>
       <p>You can complain to the Information Commissioner's Office (ICO):</p>
@@ -255,7 +255,7 @@ export default function EndUserPrivacyNoticePage() {
       <h3>About Luminai</h3>
       <p>
         <strong>Luminai Limited</strong><br />
-        Email: privacy@luminai.co.uk<br />
+        Email: empower+privacy@luminai.co.uk<br />
         Website: luminai.co.uk
       </p>
     </LegalLayout>

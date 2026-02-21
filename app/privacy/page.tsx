@@ -166,7 +166,7 @@ export default function PrivacyPolicyPage() {
         <li><strong>Withdraw consent:</strong> Where processing is based on consent</li>
       </ul>
       <p>
-        To exercise these rights, contact us at <strong>privacy@luminai.co.uk</strong>. 
+        To exercise these rights, contact us at <strong>empower+privacy@luminai.co.uk</strong>. 
         We will respond within 30 days.
       </p>
       <p>
@@ -273,7 +273,7 @@ export default function PrivacyPolicyPage() {
       <p>For privacy-related questions or to exercise your rights:</p>
       <p>
         <strong>Luminai Limited</strong><br />
-        Email: privacy@luminai.co.uk
+        Email: empower+privacy@luminai.co.uk
       </p>
       <p>
         For complaints, you may contact the ICO: <a href="https://ico.org.uk" target="_blank" rel="noopener noreferrer">ico.org.uk</a>

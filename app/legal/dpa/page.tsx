@@ -252,7 +252,7 @@ export default function DataProcessingAgreementPage() {
       <p>For DPA-related inquiries:</p>
       <p>
         <strong>Luminai Limited</strong><br />
-        Data Protection Contact: privacy@luminai.co.uk
+        Data Protection Contact: empower+privacy@luminai.co.uk
       </p>
     </LegalLayout>
   )

@@ -1,3 +1,4 @@
+import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { ArrowRight, Play } from "lucide-react"
@@ -19,6 +20,14 @@ export function HeroSection() {
           AI Agent Platform
         </Badge>
 
+        <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-accent/30 bg-accent/5 px-4 py-2 text-sm text-accent">
+          <span className="relative flex size-2">
+            <span className="absolute inline-flex size-full animate-ping rounded-full bg-accent opacity-75" />
+            <span className="relative inline-flex size-2 rounded-full bg-accent" />
+          </span>
+          Public registration coming soon — <Link href="/contact" className="font-medium underline underline-offset-2 hover:text-accent/80">contact us for early access</Link>
+        </div>
+
         <h1 className="text-balance text-4xl font-bold tracking-tight text-foreground sm:text-5xl md:text-6xl lg:text-7xl">
           Deploy AI Agents{" "}
           <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
@@ -36,9 +45,12 @@ export function HeroSection() {
           <Button
             size="lg"
             className="group h-12 bg-primary px-8 text-primary-foreground hover:bg-primary/90 text-sm font-medium"
+            asChild
           >
-            Get Started
-            <ArrowRight className="size-4 transition-transform group-hover:translate-x-0.5" />
+            <Link href="/contact">
+              Request Early Access
+              <ArrowRight className="size-4 transition-transform group-hover:translate-x-0.5" />
+            </Link>
           </Button>
           <Button
             variant="outline"

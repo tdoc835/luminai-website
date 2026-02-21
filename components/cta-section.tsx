@@ -24,9 +24,12 @@ export function CtaSection() {
             <Button
               size="lg"
               className="group h-12 bg-primary px-8 text-primary-foreground hover:bg-primary/90 text-sm font-medium"
+              asChild
             >
-              Get Started
-              <ArrowRight className="size-4 transition-transform group-hover:translate-x-0.5" />
+              <Link href="/contact">
+                Request Early Access
+                <ArrowRight className="size-4 transition-transform group-hover:translate-x-0.5" />
+              </Link>
             </Button>
             <Button
               variant="outline"

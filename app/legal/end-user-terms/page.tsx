@@ -145,7 +145,7 @@ export default function EndUserTermsPage() {
 
       <h3>About Luminai Technology</h3>
       <p>
-        Email: support@luminai.co.uk<br />
+        Email: empower+support@luminai.co.uk<br />
         Website: luminai.co.uk
       </p>
     </LegalLayout>

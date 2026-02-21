@@ -13,19 +13,19 @@ const contacts = [
     icon: MessageSquare,
     title: "General Enquiries & Sales",
     description: "Interested in Luminai or have a question? We'd love to hear from you.",
-    email: "hello@luminai.co.uk",
+    email: "empower@luminai.co.uk",
   },
   {
     icon: Mail,
     title: "Support",
     description: "Need help with the platform or have a technical question?",
-    email: "support@luminai.co.uk",
+    email: "empower+support@luminai.co.uk",
   },
   {
     icon: Shield,
     title: "Legal & Privacy",
     description: "Data protection requests, legal enquiries, or privacy concerns.",
-    email: "legal@luminai.co.uk",
+    email: "empower+legal@luminai.co.uk",
   },
 ]
 

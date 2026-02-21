@@ -1,6 +1,7 @@
 "use client"
 
 import { useState } from "react"
+import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Menu, X } from "lucide-react"
 
@@ -39,8 +40,8 @@ export function Navbar() {
           <Button variant="ghost" size="sm" className="text-muted-foreground hover:text-foreground">
             Log In
           </Button>
-          <Button size="sm" className="bg-primary text-primary-foreground hover:bg-primary/90">
-            Get Started
+          <Button size="sm" className="bg-primary text-primary-foreground hover:bg-primary/90" asChild>
+            <Link href="/contact">Early Access</Link>
           </Button>
         </div>
 
@@ -70,8 +71,8 @@ export function Navbar() {
               <Button variant="ghost" size="sm" className="text-muted-foreground hover:text-foreground justify-start">
                 Log In
               </Button>
-              <Button size="sm" className="bg-primary text-primary-foreground hover:bg-primary/90">
-                Get Started
+              <Button size="sm" className="bg-primary text-primary-foreground hover:bg-primary/90" asChild>
+                <Link href="/contact">Early Access</Link>
               </Button>
             </div>
           </div>

@@ -134,7 +134,7 @@ export default function WebsiteTermsPage() {
       <p>If you have questions about these Terms, contact us at:</p>
       <p>
         <strong>Luminai Limited</strong><br />
-        Email: legal@luminai.co.uk
+        Email: empower+legal@luminai.co.uk
       </p>
     </LegalLayout>
   )
