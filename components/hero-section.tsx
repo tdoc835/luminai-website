@@ -13,12 +13,6 @@ export function HeroSection() {
       </div>
 
       <div className="relative z-10 mx-auto max-w-4xl text-center">
-        <Badge
-          variant="outline"
-          className="mb-6 border-primary/30 bg-primary/5 px-4 py-1.5 text-primary"
-        >
-          AI Agent Platform
-        </Badge>
 
         <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-accent/30 bg-accent/5 px-4 py-2 text-sm text-accent">
           <span className="relative flex size-2">
@@ -68,7 +62,7 @@ export function HeroSection() {
         <div className="mt-16 flex flex-wrap items-center justify-center gap-x-8 gap-y-3 text-sm text-muted-foreground">
           <span className="flex items-center gap-2">
             <span className="size-1.5 rounded-full bg-primary" />
-            GPT-4, Claude, Gemini & more
+             Open AI, Anthropic, Google & more
           </span>
           <span className="flex items-center gap-2">
             <span className="size-1.5 rounded-full bg-primary" />
