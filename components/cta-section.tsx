@@ -1,3 +1,4 @@
+import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { ArrowRight } from "lucide-react"
 
@@ -31,8 +32,9 @@ export function CtaSection() {
               variant="outline"
               size="lg"
               className="h-12 border-border bg-transparent px-8 text-foreground hover:bg-secondary text-sm font-medium"
+              asChild
             >
-              Contact Us
+              <Link href="/contact">Contact Us</Link>
             </Button>
           </div>
         </div>

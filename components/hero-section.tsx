@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
-import { ArrowRight, MessageSquare } from "lucide-react"
+import { ArrowRight, Play } from "lucide-react"
 
 export function HeroSection() {
   return (
@@ -44,9 +44,12 @@ export function HeroSection() {
             variant="outline"
             size="lg"
             className="h-12 border-border bg-transparent px-8 text-foreground hover:bg-secondary text-sm font-medium"
+            asChild
           >
-            <MessageSquare className="size-4" />
-            Book a Demo
+            <a href="#demo">
+              <Play className="size-4" />
+              Try Our Interactive Demo
+            </a>
           </Button>
         </div>
 
