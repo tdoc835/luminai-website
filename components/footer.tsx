@@ -32,7 +32,7 @@ export function Footer() {
           <div>
             <Link href="/" className="inline-block">
               <Image
-                src="/Luminai-Logo-White.png"
+                src="/Luminai-Logo-Blue.png"
                 alt="Luminai"
                 width={120}
                 height={32}

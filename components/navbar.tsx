@@ -43,9 +43,6 @@ export function Navbar() {
         </ul>
 
         <div className="hidden items-center gap-3 md:flex">
-          <Button variant="ghost" size="sm" className="text-muted-foreground hover:text-foreground">
-            Log In
-          </Button>
           <Button size="sm" className="bg-primary text-primary-foreground hover:bg-primary/90" asChild>
             <Link href="/contact">Early Access</Link>
           </Button>
@@ -74,9 +71,6 @@ export function Navbar() {
               </a>
             ))}
             <div className="flex flex-col gap-3 pt-4 border-t border-border/50">
-              <Button variant="ghost" size="sm" className="text-muted-foreground hover:text-foreground justify-start">
-                Log In
-              </Button>
               <Button size="sm" className="bg-primary text-primary-foreground hover:bg-primary/90" asChild>
                 <Link href="/contact">Early Access</Link>
               </Button>
