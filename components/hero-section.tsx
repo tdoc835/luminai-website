@@ -30,9 +30,8 @@ export function HeroSection() {
         </h1>
 
         <p className="mx-auto mt-6 max-w-2xl text-pretty text-base text-muted-foreground sm:text-lg leading-relaxed">
-          Build intelligent chatbots with built-in knowledge bases, multiple
-          embed styles, and full API access. Choose your model, upload your
-          docs, and go live in under a minute.
+          Build and scale intelligent AI agents with built-in knowledge bases, multiple
+          embed styles, and full API access. One platform for complete control and simplicity — go live in under a minute.
         </p>
 
         <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">

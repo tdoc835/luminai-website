@@ -8,7 +8,7 @@ const _jetbrainsMono = JetBrains_Mono({ subsets: ['latin'], variable: '--font-je
 
 export const metadata: Metadata = {
   title: 'Luminai - Deploy AI Agents in 60 Seconds',
-  description: 'Build and deploy intelligent AI chatbots with built-in knowledge bases, custom API integrations, and transparent pricing. Get started in under a minute.',
+  description: 'Build and deploy intelligent AI agents with built-in knowledge bases, custom API integrations, and transparent pricing. Get started in under a minute.',
   generator: 'v0.app',
   icons: {
     icon: [
