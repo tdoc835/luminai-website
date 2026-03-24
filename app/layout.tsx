@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from 'next'
 import { Inter, JetBrains_Mono } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
+import Script from 'next/script'
 import './globals.css'
 
 const _inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
@@ -42,6 +43,11 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${_inter.variable} ${_jetbrainsMono.variable} font-sans antialiased`}>
         {children}
+        <Script
+          src="https://agents.luminai.co.uk/widget-loader.js"
+          data-api-key="4c3536111b3d589a5e028acb52c7356ed95e34488060b5431d633663eca055dd"
+          strategy="afterInteractive"
+        />
         <Analytics />
       </body>
     </html>

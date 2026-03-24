@@ -34,7 +34,15 @@ export function HeroSection() {
           embed styles, and full API access. One platform for complete control and simplicity... go live in under a minute.
         </p>
 
-        <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
+        {/* AI Search Agent */}
+        <div className="mt-10 mb-8">
+          <p className="mb-4 text-sm font-medium text-muted-foreground">
+            Got questions? Ask our AI agent anything about Luminai
+          </p>
+          <div id="luminai-search-agent" className="mx-auto max-w-2xl" />
+        </div>
+
+        <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
           <Button
             size="lg"
             className="group h-12 bg-primary px-8 text-primary-foreground hover:bg-primary/90 text-sm font-medium"
