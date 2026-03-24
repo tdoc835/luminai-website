@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Script from "next/script"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { ArrowRight, Play } from "lucide-react"
@@ -39,7 +40,14 @@ export function HeroSection() {
           <p className="mb-4 text-sm font-medium text-muted-foreground">
             Got questions? Ask our AI agent anything about Luminai
           </p>
-          <div id="luminai-search-agent" className="mx-auto max-w-2xl" />
+          <div className="mx-auto max-w-2xl">
+            <Script
+              src="https://agents.luminai.co.uk/widget-loader.js"
+              data-api-key="4c3536111b3d589a5e028acb52c7356ed95e34488060b5431d633663eca055dd"
+              data-layout="searchbar"
+              strategy="afterInteractive"
+            />
+          </div>
         </div>
 
         <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
