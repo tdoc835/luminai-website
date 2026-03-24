@@ -46,6 +46,7 @@ export default function RootLayout({
         <Script
           src="https://agents.luminai.co.uk/widget-loader.js"
           data-api-key="4c3536111b3d589a5e028acb52c7356ed95e34488060b5431d633663eca055dd"
+          data-layout="searchbar"
           strategy="afterInteractive"
         />
         <Analytics />
