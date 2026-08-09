@@ -10,8 +10,8 @@ const footerLinks = {
   ],
   Company: [
     { label: "About", href: "#" },
-    { label: "Blog", href: "#" },
-    { label: "Careers", href: "#" },
+    { label: "Luma App", href: "/luma" },
+    { label: "Partners & Perks", href: "/luma/partners" },
     { label: "Contact", href: "/contact" },
   ],
   Legal: [
