@@ -11,12 +11,6 @@ export const metadata: Metadata = {
     "Offers and services genuinely useful to international students in the UK, from the team behind Luma.",
 }
 
-const SOVRN_API_KEY = process.env.NEXT_PUBLIC_SOVRN_API_KEY ?? "YOUR_SOVRN_API_KEY"
-
-function sovrnLink(merchantUrl: string, cuid: string) {
-  return `https://redirect.viglink.com?key=${SOVRN_API_KEY}&u=${encodeURIComponent(merchantUrl)}&cuid=${cuid}`
-}
-
 const partners = [
   {
     emoji: "\u{1F35C}",
@@ -25,7 +19,7 @@ const partners = [
     description:
       "Thousands of restaurants across the UK deliver through Just Eat, from late-night comfort food to a taste of home.",
     cta: "Order takeaway with Just Eat",
-    href: sovrnLink("https://www.just-eat.co.uk/", "partners-page"),
+    href: "https://sovrn.co/kxgk75g",
   },
 ]
 
