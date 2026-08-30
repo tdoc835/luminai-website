@@ -10,8 +10,8 @@ export default function EndUserPrivacyNoticePage() {
   return (
     <LegalLayout
       title="End User Privacy Notice"
-      lastUpdated="February 2026"
-      version="1.0"
+      lastUpdated="August 2026"
+      version="1.1"
     >
       <h2>Plain English Summary</h2>
       <p>When you chat with an AI assistant powered by Luminai:</p>
@@ -71,7 +71,22 @@ export default function EndUserPrivacyNoticePage() {
         <li>Device and browser type</li>
         <li>Date and time of interaction</li>
         <li>Pages visited before/after using the AI</li>
+        <li>
+          A random per-tab session identifier, kept in your browser&apos;s session storage,
+          so your conversation holds together across messages in one tab. It is not used
+          for advertising or cross-site tracking, and it disappears when the tab closes.
+        </li>
       </ul>
+
+      <h3>If the Website Signs You In (Identified Mode)</h3>
+      <p>
+        Some websites choose to connect their own sign-in (for example a WordPress login)
+        to the assistant. When the site owner enables this and you are signed in to their
+        site, the site shares your user id, email address, display name, and role with the
+        assistant in a short-lived signed token, so your conversation history and
+        personalisation follow your account. The site owner decides whether to enable
+        this; if it is off, you chat anonymously.
+      </p>
 
       <h3>Information from AI Processing</h3>
       <ul>

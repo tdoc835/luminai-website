@@ -10,8 +10,8 @@ export default function TermsOfServicePage() {
   return (
     <LegalLayout
       title="Terms of Service"
-      lastUpdated="February 2026"
-      version="1.0"
+      lastUpdated="August 2026"
+      version="1.1"
     >
       <h2>1. Introduction</h2>
       <p>
@@ -145,6 +145,18 @@ export default function TermsOfServicePage() {
         <li>Process sensitive personal data without appropriate safeguards</li>
         <li>Harass, abuse, or harm others</li>
         <li>Infringe intellectual property rights</li>
+      </ul>
+
+      <h3>5.5 Connected Websites (Plugin and Widget)</h3>
+      <p>
+        You may connect websites you control to the Service, including via the Luma
+        Assistant WordPress plugin or the embeddable widget. When you do:
+      </p>
+      <ul>
+        <li>Connecting a site issues that site an origin-locked credential; you must only connect sites you control, and disconnect sites you no longer control</li>
+        <li>You are responsible for the connected site&apos;s own legal notices, including disclosing the chat feature in the site&apos;s privacy policy (the plugin suggests wording)</li>
+        <li>If you enable identified visitor mode, you are responsible for having the right to share signed-in visitors&apos; details (name, email, role) with the Service</li>
+        <li>The WordPress plugin&apos;s code is licensed separately under GPLv2 or later; these Terms govern the Service the plugin connects to, not the plugin&apos;s code licence</li>
       </ul>
 
       <h2>6. AI and Third-Party Providers</h2>
