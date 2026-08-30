@@ -10,8 +10,8 @@ export default function DataProcessingAgreementPage() {
   return (
     <LegalLayout
       title="Data Processing Agreement"
-      lastUpdated="February 2026"
-      version="1.0"
+      lastUpdated="August 2026"
+      version="1.1"
     >
       <h2>1. Introduction</h2>
       <p>
@@ -167,13 +167,28 @@ export default function DataProcessingAgreementPage() {
         <tbody>
           <tr>
             <td>Amazon Web Services</td>
-            <td>Cloud infrastructure</td>
-            <td>EU/UK</td>
+            <td>Cloud infrastructure, document processing, email delivery, sign-in service</td>
+            <td>EU (Ireland)</td>
+          </tr>
+          <tr>
+            <td>Vercel</td>
+            <td>Application hosting; AI gateway routing requests to model providers</td>
+            <td>EU-region functions; US company</td>
+          </tr>
+          <tr>
+            <td>Salesforce (Heroku)</td>
+            <td>Primary database hosting</td>
+            <td>EU (Ireland)</td>
           </tr>
           <tr>
             <td>Cloudflare</td>
             <td>CDN, security</td>
             <td>Global</td>
+          </tr>
+          <tr>
+            <td>Cohere</td>
+            <td>Search-result reranking</td>
+            <td>USA</td>
           </tr>
           <tr>
             <td>OpenAI</td>
