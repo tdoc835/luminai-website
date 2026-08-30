@@ -1,0 +1,4 @@
+Contact: mailto:empower+security@luminai.co.uk
+Expires: 2027-08-29T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://luminai.co.uk/.well-known/security.txt
