@@ -186,6 +186,11 @@ export default function DataProcessingAgreementPage() {
             <td>Global</td>
           </tr>
           <tr>
+            <td>Qdrant Cloud</td>
+            <td>Vector search and assistant memory storage</td>
+            <td>EU (Ireland) cluster; German company</td>
+          </tr>
+          <tr>
             <td>Cohere</td>
             <td>Search-result reranking</td>
             <td>USA</td>
